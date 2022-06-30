@@ -1,0 +1,193 @@
+0000:Autor t³umaczenia: Piotr Zagawa
+0001:Data: 05-06-2003
+0002:email: vetch@vetch.magot.pl
+0003:--------------------------------
+0004:Menu
+0005:Nie chowaj
+0006:Ukryj
+0007:Ustawienia
+0008:O programie
+0009:Zakoñcz
+0010:Nie chowaj
+0011:Data i czas
+0012:Kalendarz
+0013:Nowa notatka
+0014:Nowe zadanie
+0015:Szukaj
+0016:Zadania
+0017:Notatki
+0018:Plik
+0019:Usuñ
+0020:Widok
+0021:Dzisiaj
+0022:Jutro
+0023:Wczoraj
+0024:Za tydzieñ
+0025:Kategorie
+0026:Dodaj
+0027:Zapisz
+0028:Anuluj
+0029:Nazwa
+0030:Nie mo¿na za³adowaæ pliku danych
+0031:Popraw
+0032:Nie mo¿na zapisaæ pliku danych
+0033:Praca
+0034:Osobiste
+0035:Dni wolne
+0036:Urodziny
+0037:Pomys³y
+0038:Œwiêta
+0039:Projekty
+0040:Telefony
+0041:Pieni¹dze
+0042:Op³aty
+0043:Zakupy
+0044:Spotkania
+0045:Cytaty
+0046:Domyœlne
+0047:Wybierz kategorie
+0048:Wyczyœæ
+0049:OK
+0050:Wybrane
+0051:Wszystko
+0052:Rejestruj
+0053:Ta kopia programu jest zarejestrowana dla
+0054:Ta kopia programu NIE jest zarejestrowana
+0055:Liczba dni testowania programu
+0056:Okres testowania programu (<days> dni) min¹³
+0057:Aby zarejestrowaæ ten program, kliknij przycisk 'Rejestruj'
+0058:(wersja <version>)
+0059:Pobierz now¹ wersjê
+0060:Otwórz stronê rejestracji programu
+0061:WprowadŸ otrzyman¹ nazwê u¿ytkownika i kod rejestracyjny
+0062:U¿ytkownik
+0063:Kod rejestracyjny
+0064:Zrobione
+0065:Zamknij
+0066:Rejestruj program
+0067:Pomoc
+0068:Strona domowa
+0069:Poka¿/Ukryj
+0070:Edycja
+0071:Nowy
+0072:Edycja
+0073:Usuñ
+0074:Szukaj
+0075:Widok
+0076:Treœæ
+0077:Dodane
+0078:Zmienione
+0079:Edycja notatki
+0080:Edycja zadania
+0081:Czy chcesz zapisaæ zmieniony tekst ?
+0082:Wpisz treœæ
+0083:Czy chcesz usun¹æ zaznaczone notatki ?
+0084:Zawsze na wierzchu
+0085:Wstaw skrót www
+0086:Wstaw skrót email
+0087:Wstaw skrót do pliku
+0088:Wstaw datê
+0089:Wstaw d³ug¹ datê
+0090:Wstaw czas
+0091:Wstaw datê i czas
+0092:Poka¿ od
+0093:do
+0094:Do
+0095:Wszystko
+0096:wszystko
+0097:Wg kategorii
+0098:Wg postêpu
+0099:Wg priorytetu
+0100:Wg daty widocznoœci
+0101:Wg daty dodania
+0102:Wg daty zmiany
+0103:nie zrobione
+0104:zrobione czêœciowo
+0105:zakoñczone
+0106:wa¿ne
+0107:domyœlne
+0108:nie wa¿ne
+0109:ostatnie 30 dni
+0110:ostatnie 7 dni
+0111:wczoraj
+0112:dzisiaj
+0113:Odœwie¿anie...
+0114:Wszystkie
+0115:Wybrane
+0116:Czy chcesz ustawiæ domyœlne wartoœci ?
+0117:Data
+0118:Priorytet
+0119:Postêp
+0120:Powtórzenia
+0121:Czy chcesz usun¹æ notatkê ?
+0122:Czy chcesz usun¹æ zadanie ?
+0123:Rodzaj
+0124:Dni tygodnia
+0125:wy³¹czone
+0126:co dzieñ
+0127:co miesi¹c
+0128:co rok
+0129:dni tygodnia
+0130:Czy chcesz usun¹æ zaznaczone zadania ?
+0131:Zakoñcz
+0132:Poka¿
+0133:zadanie o
+0134:Ze s³owami
+0135:Bez s³ów
+0136:Szukaj !
+0137:zadanie
+0138:notatka
+0139:WprowadŸ jedno lub kilka s³ów i wciœnij przycisk 'Szukaj !'
+0140:Nie znaleziono zadañ/notatek wg podanych s³ów
+0141:Znalezionych pozycji: %d. Zadañ: %d. Notatek: %d
+0142:Szukanie...
+0143:Poka¿ w przegl¹darce
+0144:Zapisz jako HTML
+0145:Lista notatek
+0146:Lista zadañ
+0147:Notatka
+0148:Zadanie
+0149:Pliki html
+0150:Jêzyk / Language
+0151:Ukryj okno po
+0152:sekundach
+0153:Steruj programem przez klawisze HotKey
+0154:Uruchom program
+0155:Przypomnienie
+0156:przy starcie systemu
+0157:Poka¿
+0158:minut wczeœniej
+0159:DŸwiêk
+0160:przez wewnêtrzny g³oœniczek
+0161:Test
+0162:Wy³¹czony
+0163:B³¹d sk³adni
+0164:Niedopasowane nawiasy
+0165:Brak ')'
+0166:Puste wyra¿enie
+0167:B³¹d sk³adni: oczekiwany operator
+0168:Brak pamiêci
+0169:Nieoczekiwany b³¹d
+0170:B³¹d sk³adni w parametrze 'Vars' dla funkcji 'FunctionParser::Parse()'
+0171:Nieprawid³owa liczba parametrów dla funkcji
+0172:B³¹d sk³adni: przedwczesny koniec ci¹gu
+0173:B³¹d sk³adni: oczekiwany nawias '(' za funkcj¹
+0174:B³¹d przy znaku
+0175:B³¹d obliczeñ
+0176:Oblicz
+0177:Witaj w programie WinWorkBar !
+0178:Importuj dane
+0179:Eksportuj dane
+0180:Pliki xml
+0181:Wybierz dane dla operacji
+0182:Otwórz
+0183:Plik nie jest dokumentem programu WinWorkbar
+0184:Nie mo¿na za³adowaæ pliku szablonu html
+0185:Wodnik,Ryby,Baran,Byk,BliŸniêta,Rak,Lew,Panna,Waga,Skorpion,Strzelec,Kozioro¿ec
+0186:Styl zegara
+0187:LCD i znaki zodiaku
+0188:Zegar tekstowy
+0189:Poka¿ okno na klikniêcie
+0190:PóŸniej
+0191:Od³ó¿ zadanie na
+0192:minut

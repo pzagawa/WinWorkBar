@@ -1,0 +1,719 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+#ifdef _WIN32
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\WinWorkBar.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+A_IDI_MAIN              ICON                    "Graph\\WinWorkBar.ico"
+IDI_ICO_FIND            ICON                    "Graph\\Find.ico"
+IDI_ICO_NOTE            ICON                    "Graph\\Note.ico"
+IDI_ICO_TASK            ICON                    "Graph\\Task.ico"
+IDI_ICO_TODAY           ICON                    "graph\\today.ico"
+IDI_TBAR_BTN_DELETE     ICON                    "Graph\\tbar_btn_delete.ico"
+IDI_TBAR_BTN_EDIT       ICON                    "Graph\\tbar_btn_edit.ico"
+IDI_TBAR_BTN_FIND       ICON                    "Graph\\tbar_btn_find.ico"
+IDI_TBAR_BTN_NEW        ICON                    "Graph\\tbar_btn_new.ico"
+IDI_TBAR_BTN_VIEW       ICON                    "Graph\\tbar_btn_view.ico"
+IDI_ICO_CATEGORIES      ICON                    "graph\\categories.ico"
+IDI_ICO_REPEATS         ICON                    "graph\\repeats.ico"
+IDI_CFG_TESTSOUND       ICON                    "graph\\config_testsound.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TAB_TASKS DIALOGEX 0, 0, 190, 194
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_BTN_TASKS_NEW,4,4,28,14,NOT WS_TABSTOP
+    PUSHBUTTON      "",IDC_BTN_TASKS_EDIT,36,4,28,14,NOT WS_TABSTOP
+    PUSHBUTTON      "",IDC_BTN_TASKS_DELETE,68,4,28,14,NOT WS_TABSTOP
+    CONTROL         "",IDC_LIST_TASKS,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_SORTASCENDING | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,41,176,146
+    LTEXT           "",IDC_INFO_TASK,113,7,57,13,SS_NOTIFY | SS_CENTERIMAGE | SS_ENDELLIPSIS,WS_EX_STATICEDGE
+END
+
+IDD_TAB_NOTES DIALOGEX 0, 0, 188, 243
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_BTN_NOTES_NEW,4,4,28,14,NOT WS_TABSTOP
+    PUSHBUTTON      "",IDC_BTN_NOTES_EDIT,36,4,28,14,NOT WS_TABSTOP
+    PUSHBUTTON      "",IDC_BTN_NOTES_DELETE,68,4,28,14,NOT WS_TABSTOP
+    CONTROL         "",IDC_LIST_NOTES,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_SORTASCENDING | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,90,172,146
+    LTEXT           "",IDC_INFO_NOTE,113,7,57,13,SS_NOTIFY | SS_CENTERIMAGE | SS_ENDELLIPSIS,WS_EX_STATICEDGE
+END
+
+IDD_TAB_TODAY DIALOGEX 0, 0, 190, 135
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Static",IDC_LAB_TASKVIEW,18,17,156,66,SS_NOTIFY
+END
+
+IDD_EDIT_CATEGORIES DIALOGEX 0, 0, 180, 177
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST | WS_EX_TOOLWINDOW
+CAPTION "Edit categories"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,70,159,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,124,159,50,14
+    EDITTEXT        IDC_ED_CATEGORY,6,6,118,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_BTN_ADD,128,6,46,14
+    CONTROL         "",IDC_LIST_CATEGORY,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,6,27,168,126
+    PUSHBUTTON      "Cancel",ID_BTN_DEFAULT,6,159,50,14
+END
+
+IDD_CATEGORIES DIALOGEX 0, 0, 240, 204
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST | WS_EX_TOOLWINDOW
+CAPTION "Select categories"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,182,72,51,14
+    PUSHBUTTON      "Edit",ID_BTN_EDIT,182,90,51,14
+    PUSHBUTTON      "Select all",ID_BTN_SELECTALL,182,108,51,14
+    PUSHBUTTON      "Deselect all",ID_BTN_DESELECTALL,182,126,51,14
+    PUSHBUTTON      "Cancel",IDCANCEL,182,144,51,14
+    CONTROL         "",IDC_LIST_CATEGORY,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,6,72,168,126
+    GROUPBOX        "Selected categories",IDC_GRP1,6,6,228,60
+    EDITTEXT        IDC_ED_SELECTED,12,20,216,40,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | NOT WS_BORDER | WS_VSCROLL,WS_EX_STATICEDGE
+END
+
+IDD_ABOUTDLG DIALOGEX 0, 0, 224, 155
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_PALETTEWINDOW
+CAPTION "About"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,168,132,48,18
+    CTEXT           "AppName",IDC_LAB_APPNAME,8,60,208,10
+    CTEXT           "Copyright 1",IDC_LAB_COPYRIGHT1,8,74,208,10
+    CTEXT           "Copyright 2",IDC_LAB_COPYRIGHT2,8,84,208,10
+    CONTROL         161,IDC_PIC_LOGO,"Static",SS_BITMAP | SS_REALSIZEIMAGE,4,4,216,44
+    GROUPBOX        "",IDC_STATIC,4,52,216,70
+    CTEXT           "Static",IDC_LAB_WWW,12,99,198,14,SS_CENTERIMAGE
+END
+
+IDD_EDITDLG_NOTE DIALOGEX 0, 0, 345, 230
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOPMOST | WS_EX_APPWINDOW
+CAPTION "Edit note"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_REDIT,"RichEdit20A",ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN | WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,6,42,330,162
+    PUSHBUTTON      "OK",IDOK,234,210,50,14,BS_NOTIFY
+    PUSHBUTTON      "Cancel",IDCANCEL,288,210,50,14,BS_NOTIFY
+    PUSHBUTTON      "",IDC_EDIT_NOTE_BTN_CATEGORIES,6,6,18,12,BS_NOTIFY
+    EDITTEXT        IDC_EDIT_NOTE_LAB_CATEGORIES,30,6,300,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    CONTROL         "Pokazuj od",IDC_CHKFROM,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | BS_VCENTER | BS_NOTIFY | WS_TABSTOP,6,24,51,12
+    CONTROL         "",IDC_DATEFROM,"SysDateTimePick32",DTS_APPCANPARSE | WS_TABSTOP,66,24,64,14
+    CONTROL         "do",IDC_CHKTO,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | BS_NOTIFY | WS_TABSTOP,138,24,24,12
+    CONTROL         "",IDC_DATETO,"SysDateTimePick32",DTS_APPCANPARSE | WS_TABSTOP,168,24,64,14
+    PUSHBUTTON      "Delete",IDC_BTN_DELETE,6,210,50,14,BS_NOTIFY
+END
+
+IDD_EDITDLG_TASK DIALOGEX 0, 0, 387, 212
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOPMOST | WS_EX_APPWINDOW
+CAPTION "Edit task"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_REDIT,"RichEdit20A",ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN | WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,6,60,372,126
+    PUSHBUTTON      "OK",IDOK,276,192,50,14,BS_NOTIFY
+    PUSHBUTTON      "Cancel",IDCANCEL,330,192,50,14,BS_NOTIFY
+    PUSHBUTTON      "",IDC_EDIT_TASK_BTN_CATEGORIES,6,6,18,12,BS_NOTIFY
+    EDITTEXT        IDC_EDIT_TASK_LAB_CATEGORIES,30,6,294,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "Termin",IDC_LAB_START,6,24,52,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_DATE_START,"SysDateTimePick32",DTS_APPCANPARSE | WS_TABSTOP,60,24,64,14
+    CONTROL         "",IDC_TIME_START,"SysDateTimePick32",DTS_UPDOWN | DTS_APPCANPARSE | WS_TABSTOP,126,24,48,15
+    CONTROL         "do",IDC_CHK_STOP,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | BS_NOTIFY | WS_TABSTOP,180,24,24,12
+    CONTROL         "",IDC_DATE_STOP,"SysDateTimePick32",DTS_APPCANPARSE | WS_TABSTOP,210,24,64,14
+    PUSHBUTTON      "",IDC_EDIT_TASK_BTN_REPEATS,282,24,18,12,BS_NOTIFY
+    LTEXT           "Priorytet",IDC_LAB_PRI,6,42,52,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_LIST_PRI,66,42,68,30,CBS_DROPDOWNLIST | CBS_LOWERCASE | WS_TABSTOP
+    LTEXT           "Progress",IDC_LAB_PROGRESS,138,42,44,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_SLD_PROGRESS,"msctls_trackbar32",TBS_AUTOTICKS | TBS_NOTICKS | WS_TABSTOP,180,42,48,12
+    CONTROL         "",IDC_LAB_PRG_INFO,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | BS_NOTIFY | WS_TABSTOP,239,43,48,12
+    EDITTEXT        IDC_EDIT_TASK_LAB_REPEATS,306,24,72,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    PUSHBUTTON      "Delete",IDC_BTN_DELETE_TASK,6,192,50,14,BS_NOTIFY
+END
+
+IDD_REPEATS DIALOGEX 0, 0, 210, 132
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST | WS_EX_TOOLWINDOW
+CAPTION "Repeats"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,104,114,48,14
+    PUSHBUTTON      "Cancel",IDCANCEL,156,114,48,14
+    GROUPBOX        "Type",IDC_GRP_TYPE,6,6,102,88
+    CONTROL         "off",IDC_RD_OFF,"Button",BS_AUTORADIOBUTTON | BS_NOTIFY,12,20,90,10
+    CONTROL         "days",IDC_RD_DAYS,"Button",BS_AUTORADIOBUTTON | BS_NOTIFY,12,34,90,10
+    CONTROL         "months",IDC_RD_MONTHS,"Button",BS_AUTORADIOBUTTON | BS_NOTIFY,12,48,90,10
+    CONTROL         "years",IDC_RD_YEARS,"Button",BS_AUTORADIOBUTTON | BS_NOTIFY,12,62,90,10
+    CONTROL         "selected week days",IDC_RD_WEEKDAYS,"Button",BS_AUTORADIOBUTTON | BS_NOTIFY,12,76,90,10
+    GROUPBOX        "Week day",IDC_GRP_WEEKDAY,114,6,90,100
+    CONTROL         "",IDC_WEEKDAYLIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_NOLABELWRAP | LVS_ALIGNLEFT | LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,120,18,78,82
+END
+
+IDD_TOOLINFOWINDOW_DIALOG DIALOGEX 0, 0, 244, 42
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST | WS_EX_TOOLWINDOW
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "Poka¿",IDC_BTN_TI_SHOW,188,24,50,12,SS_NOTIFY | SS_CENTERIMAGE
+    CTEXT           "Zakoñcz",IDC_BTN_TI_FINISH,132,24,50,12,SS_NOTIFY | SS_CENTERIMAGE
+    CTEXT           "Put away",IDC_BTN_TI_PUTAWAY,76,24,52,12,SS_NOTIFY | SS_CENTERIMAGE
+END
+
+IDD_SEARCH DIALOGEX 0, 0, 287, 199
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOPMOST | WS_EX_APPWINDOW
+CAPTION "Search"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,228,4,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,228,24,50,14
+    EDITTEXT        IDC_ED_WITHWORDS,68,4,144,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ED_WITHOUTWORDS,68,24,144,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_FINDLIST,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_SORTASCENDING | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,4,72,276,120
+    LTEXT           "With words",IDC_LAB1,4,4,60,12,SS_CENTERIMAGE
+    LTEXT           "Without words",IDC_LAB2,4,20,60,12,SS_CENTERIMAGE
+    LTEXT           "Summary",IDC_LAB_STATUS,4,48,204,12,SS_CENTERIMAGE
+END
+
+IDD_CONFIG DIALOGEX 0, 0, 348, 210
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST | WS_EX_TOOLWINDOW
+CAPTION "Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,228,192,56,14
+    PUSHBUTTON      "Cancel",IDCANCEL,288,192,56,14
+    COMBOBOX        IDC_LIST_LANG,12,16,210,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_SETTING_HOTKEY_CHK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,54,12,14
+    CONTROL         "",IDC_PROFILE_HOTKEY1,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,24,54,72,14
+    CONTROL         "",IDC_SETTING_HOTKEY_CHK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,74,12,14
+    CONTROL         "",IDC_PROFILE_HOTKEY2,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,24,74,72,14
+    CONTROL         "",IDC_SETTING_HOTKEY_CHK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,94,12,14
+    CONTROL         "",IDC_PROFILE_HOTKEY3,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,24,94,72,14
+    LTEXT           "Show",IDC_LAB_REMIND_SHOW,12,132,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ED_REMIND_SHOW_MINUTESBEFORE,54,132,42,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN_MINUTESBEFORE,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,96,132,11,12
+    COMBOBOX        IDC_LIST_SOUNDS,54,148,144,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_BTN_TESTSOUND,200,148,22,12
+    CONTROL         "also play PC Speaker beep",IDC_CHK_PCSPEAKER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,54,164,168,12
+    EDITTEXT        IDC_ED_TASKPUTAWAY,242,17,42,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN_PUTTASKAWAY,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,284,17,11,12
+    EDITTEXT        IDC_ED_HIDEWINDOWAFTER,242,53,42,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN_HIDEWINDOWAFTER,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,284,53,11,12
+    CONTROL         "when system starts",IDC_CHK_AUTORUN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,242,88,96,14
+    COMBOBOX        IDC_LST_CLOCKSTYLE,242,126,94,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Show workbar on click",IDC_CHK_SHOWBARONCLICK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,236,152,104,12
+    GROUPBOX        "Language",IDC_GRP1,6,4,222,32
+    GROUPBOX        "Hide main window after",IDC_GRP2,236,40,106,32
+    LTEXT           "seconds",IDC_LAB_HIDEWINDOWAFTER,290,53,42,12,SS_CENTERIMAGE
+    GROUPBOX        "Control tasks/notes with hotkeys",IDC_GRP3,6,40,222,76
+    LTEXT           "show/hide main window",IDC_PROFILE_MISC_LAB1,102,54,114,16,SS_CENTERIMAGE
+    LTEXT           "new task",IDC_PROFILE_MISC_LAB2,102,74,112,16,SS_CENTERIMAGE
+    LTEXT           "new note",IDC_PROFILE_MISC_LAB3,102,94,112,16,SS_CENTERIMAGE
+    GROUPBOX        "Remind",IDC_GRP5,6,120,222,62
+    LTEXT           "minutes before",IDC_LAB_REMINDSHOW,102,132,96,12,SS_CENTERIMAGE
+    LTEXT           "Sound",IDC_LAB_REMIND_SOUND,12,148,36,12,SS_CENTERIMAGE
+    GROUPBOX        "Run program",IDC_GRP4,236,76,106,32
+    GROUPBOX        "Clock style",IDC_GRP6,236,112,106,32
+    GROUPBOX        "Task put away",IDC_GRP_TASKLATER,236,4,106,32
+    LTEXT           "minutes",IDC_LAB_TASKPUTAWAY,290,17,42,12,SS_CENTERIMAGE
+END
+
+IDD_IMPORTEXPORT DIALOGEX 0, 0, 187, 79
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_PALETTEWINDOW
+CAPTION "Import/Export"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Close",IDCANCEL,124,60,56,14
+    COMBOBOX        IDC_LIST_IE_DATA,8,20,172,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_PROGRESS_IE,"msctls_progress32",WS_BORDER,8,40,172,12
+    PUSHBUTTON      "Import",IDOK,8,60,56,14
+    CTEXT           "Select data for operation",IDC_LAB_IE_TITLE,4,4,180,12,SS_CENTERIMAGE
+END
+
+IDD_MESSAGE_ONLY_WINDOW DIALOGEX 0, 0, 164, 33
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "WinWorkBar HIDDEN MESSAGE WINDOW"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_TAB_TASKS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 187
+    END
+
+    IDD_TAB_NOTES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 236
+    END
+
+    IDD_TAB_TODAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_EDIT_CATEGORIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 172
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_CATEGORIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 197
+    END
+
+    IDD_ABOUTDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 217
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 148
+    END
+
+    IDD_EDITDLG_NOTE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 338
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 223
+    END
+
+    IDD_EDITDLG_TASK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 380
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 205
+    END
+
+    IDD_REPEATS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 125
+    END
+
+    IDD_TOOLINFOWINDOW_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 35
+    END
+
+    IDD_SEARCH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+
+    IDD_CONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 340
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_IMPORTEXPORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+
+    IDD_MESSAGE_ONLY_WINDOW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 157
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 26
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "Hide",                        ID_MM_HIDE
+        MENUITEM "Don't hide",                  ID_MM_DO_NOT_HIDE
+        MENUITEM "On top",                      ID_MM_ONTOP
+        MENUITEM "Settings",                    ID_MM_SETTINGS
+        MENUITEM SEPARATOR
+        MENUITEM "Help",                        ID_MM_HELP
+        MENUITEM "About",                       ID_MM_ABOUT
+        MENUITEM "Home page",                   ID_MM_HOMEPAGE
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        ID_MM_EXIT
+    END
+    POPUP "File"
+    BEGIN
+        MENUITEM "New task",                    ID_MM_NEWTASK
+        MENUITEM "New note",                    ID_MM_NEWNOTE
+        MENUITEM "Edit",                        ID_MM_EDIT
+        MENUITEM "-->Delete",                   1021
+        MENUITEM SEPARATOR
+        MENUITEM "Categories",                  ID_MM_CATEGORIES
+        MENUITEM "Find",                        ID_MM_FIND
+        MENUITEM SEPARATOR
+        MENUITEM "View in browser",             ID_MM_VIEWINBROWSER
+        MENUITEM "Save as HTML",                ID_MM_SAVEASHTML
+        MENUITEM SEPARATOR
+        MENUITEM "Export data",                 ID_MM_EXPORT
+        MENUITEM "Import data",                 ID_MM_IMPORT
+    END
+    POPUP "View"
+    BEGIN
+        MENUITEM "All",                         205
+        MENUITEM SEPARATOR
+        POPUP "By categories"
+        BEGIN
+            MENUITEM "all",                         ID_BYCATEGORIES_ALL
+            MENUITEM SEPARATOR
+        END
+        POPUP "By progress"
+        BEGIN
+            MENUITEM "all",                         ID_BYPROGRESS_ALL
+            MENUITEM SEPARATOR
+            MENUITEM "not done",                    ID_BYPROGRESS_NOTDONE
+            MENUITEM "partially done ",             ID_BYPROGRESS_PARTIALLYDONE
+            MENUITEM "finished",                    ID_BYPROGRESS_FINISHED
+        END
+        POPUP "By priority"
+        BEGIN
+            MENUITEM "all",                         ID_BYPRIORITY_ALL
+            MENUITEM SEPARATOR
+            MENUITEM "important",                   ID_BYPRIORITY_IMPORTANT
+            MENUITEM "default",                     ID_BYPRIORITY_DEFAULT
+            MENUITEM "not important",               ID_BYPRIORITY_NOTIMPORTANT
+        END
+        POPUP "By visibility date"
+        BEGIN
+            MENUITEM "all",                         ID_BYVISIBILITY_ALL
+            MENUITEM SEPARATOR
+            MENUITEM "this month",                  ID_BYVISIBILITY_THISMONTH
+            MENUITEM "this week",                   ID_BYVISIBILITY_THISWEEK
+            MENUITEM "yesterday",                   ID_BYVISIBILITY_YESTERDAY
+            MENUITEM "today",                       ID_BYVISIBILITY_TODAY
+        END
+        POPUP "By adding date"
+        BEGIN
+            MENUITEM "all",                         ID_BYADDINGDATE_ALL
+            MENUITEM SEPARATOR
+            MENUITEM "this month",                  ID_BYADDINGDATE_THISMONTH
+            MENUITEM "this week",                   ID_BYADDINGDATE_THISWEEK
+            MENUITEM "yesterday",                   ID_BYADDINGDATE_YESTERDAY
+            MENUITEM "today",                       ID_BYADDINGDATE_TODAY
+        END
+        POPUP "By changing date"
+        BEGIN
+            MENUITEM "all",                         ID_BYCHANGINGDATE_ALL
+            MENUITEM SEPARATOR
+            MENUITEM "this month",                  ID_BYCHANGINGDATE_THISMONTH
+            MENUITEM "this week",                   ID_BYCHANGINGDATE_THISWEEK
+            MENUITEM "yesterday",                   ID_BYCHANGINGDATE_YESTERDAY
+            MENUITEM "today",                       ID_BYCHANGINGDATE_TODAY
+        END
+    END
+END
+
+IDR_TRAYMENU MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "New task",                    ID_TRAYMENU_NEWTASK
+        MENUITEM "New note",                    ID_TRAYMENU_NEWNOTE
+        MENUITEM SEPARATOR
+        MENUITEM "Show/Hide",                   ID_TRAYMENU_SHOWHIDE
+        MENUITEM "Settings",                    ID_TRAYMENU_SETTINGS
+        MENUITEM "About",                       ID_TRAYMENU_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "Close",                       ID_TRAYMENU_CLOSE
+    END
+END
+
+IDR_EDITMENU MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "Calculate",                   ID_EDM_CALCULATE
+        MENUITEM SEPARATOR
+        MENUITEM "Insert www link",             ID_EDM_INSERT_WWWLINK
+        MENUITEM "Insert email link",           ID_EDM_INSERT_EMAILLINK
+        MENUITEM "Insert file link",            ID_EDM_INSERT_FILELINK
+        MENUITEM SEPARATOR
+        MENUITEM "Insert short date",           ID_EDM_INSERT_DATE
+        MENUITEM "Insert long date",            ID_EDM_INSERT_LONGDATE
+        MENUITEM "Insert time",                 ID_EDM_INSERT_TIME
+        MENUITEM "Insert date & time",          ID_EDM_INSERT_DATETIME
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_LOGO         BITMAP                  "Graph\\About\\AboutLogo.bmp"
+IDB_NEWTASK             BITMAP                  "graph\\newtask.bmp"
+IDB_NEWNOTE             BITMAP                  "graph\\newnote.bmp"
+IDB_TRAYMENU_CLOSE      BITMAP                  "Graph\\traymenu_close.bmp"
+IDB_TRAYMENU_ABOUT      BITMAP                  "Graph\\traymenu_about.bmp"
+IDB_TRAYMENU_SHOWHIDE   BITMAP                  "Graph\\traymenu_showhide.bmp"
+IDB_TRAYMENU_SETTINGS   BITMAP                  "Graph\\traymenu_settings.bmp"
+IDB_MENUXP              BITMAP                  "Graph\\MenuXPBitmap.bmp"
+IDB_TIPINFOICON         BITMAP                  "Graph\\tipinfoicon.bmp"
+IDB_CUTECLOCK_AM        BITMAP                  "Graph\\CuteClock_am.bmp"
+IDB_CUTECLOCK_LCD       BITMAP                  "Graph\\CuteClock_lcd.bmp"
+IDB_CUTECLOCK_LCDSMALL  BITMAP                  "Graph\\CuteClock_lcdsmall.bmp"
+IDB_CUTECLOCK_ZODIAC    BITMAP                  "Graph\\CuteClock_zodiac.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_PS_HAND             CURSOR                  "Graph\\curHand.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCTABLE ACCELERATORS 
+BEGIN
+    "S",            ID_ACC_SAVE,            VIRTKEY, CONTROL, NOINVERT
+END
+
+#endif    // Polish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_WINWORKBAR_DIALOG DIALOGEX 0, 0, 176, 272
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_FIXEDSYS | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOPMOST | WS_EX_TOOLWINDOW
+CAPTION "-"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TAB1,"SysTabControl32",0x0,4,164,168,102
+    GROUPBOX        "Date and time",IDC_GRP_DATEANDTIME,7,7,162,69,0,WS_EX_TRANSPARENT
+    GROUPBOX        "Calendar",IDC_GRP_CALENDAR,8,84,168,72,0,WS_EX_TRANSPARENT
+    CTEXT           "",IDC_LAB_CAL,17,99,55,47,SS_NOTIFY | SS_CENTERIMAGE
+    LTEXT           "Static",IDC_LAB_CLOCK,12,20,152,48
+    LTEXT           "Cal1",IDC_LAB_CAL1,80,96,36,52
+    LTEXT           "Cal2",IDC_LAB_CAL2,120,96,36,52
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_WINWORKBAR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 265
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,3,0,3450
+ PRODUCTVERSION 1,3,0,3450
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "Vetch Utilities"
+            VALUE "FileDescription", "WinWorkBar"
+            VALUE "FileVersion", "1.3.0.3450"
+            VALUE "InternalName", "WinWorkBar.exe"
+            VALUE "LegalCopyright", "Piotr Zagawa.  All rights reserved. 2005"
+            VALUE "OriginalFilename", "WinWorkBar.exe"
+            VALUE "ProductName", "WinWorkBar Personal Information Manager"
+            VALUE "ProductVersion", "1.3.0.3450"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST_BAK        RT_MANIFEST             "res\\WinWorkBar.manifest"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\WinWorkBar.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

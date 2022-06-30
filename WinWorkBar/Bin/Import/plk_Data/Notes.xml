@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="windows-1250" standalone="yes" ?>
+<Notes>
+    <Information>
+        <Name>WinWorkBar</Name>
+        <Version>1.2.0.3444</Version>
+        <Saved>25-02-2005 20:07.33</Saved>
+    </Information>
+    <Data>
+        <Row ID="bd790f1c-185c-4b82-af4fdb6c3f92e99">
+            <Text>Nowy Rok 2006&#x0D;&#x0A;</Text>
+            <Date>07-04-2004 14:30.09</Date>
+            <ShowFrom>01-01-2006 00:00.00</ShowFrom>
+            <ShowTo>01-01-2006 00:00.00</ShowTo>
+            <Modified></Modified>
+            <Categories>0</Categories>
+        </Row>
+        <Row ID="5b551671-34a4-4802-93f0c4e832e88cb0">
+            <Text>Prima Aprilis&#x0D;&#x0A;Nie daj si&#xEA; zrobi&#xE6; w balona :-)&#x0D;&#x0A;</Text>
+            <Date>07-04-2004 14:31.25</Date>
+            <ShowFrom>01-04-2006 00:00.00</ShowFrom>
+            <ShowTo>01-04-2006 00:00.00</ShowTo>
+            <Modified></Modified>
+            <Categories>0</Categories>
+        </Row>
+        <Row ID="5b551671-34a4-4815-93f0c4e832e88cb0">
+            <Text>Prima Aprilis&#x0D;&#x0A;Nie daj si&#xEA; zrobi&#xE6; w balona :-)&#x0D;&#x0A;</Text>
+            <Date>07-04-2004 14:31.25</Date>
+            <ShowFrom>01-04-2005 00:00.00</ShowFrom>
+            <ShowTo>01-04-2005 00:00.00</ShowTo>
+            <Modified></Modified>
+            <Categories>0</Categories>
+        </Row>
+        <Row ID="a0d4899c-40a3-41b8-8424f4849b280bb">
+            <Text>Walentynki !&#x0D;&#x0A;</Text>
+            <Date>07-04-2004 14:32.50</Date>
+            <ShowFrom>14-02-2006 00:00.00</ShowFrom>
+            <ShowTo>14-02-2006 00:00.00</ShowTo>
+            <Modified></Modified>
+            <Categories>0</Categories>
+        </Row>
+        <Row ID="81670ef0-9f69-497c-aa43523453262b072b8">
+            <Text>Bo&#xBF;e Narodzenie&#x0D;&#x0A;</Text>
+            <Date>07-04-2004 14:33.25</Date>
+            <ShowFrom>25-12-2005 00:00.00</ShowFrom>
+            <ShowTo>25-12-2005 00:00.00</ShowTo>
+            <Modified></Modified>
+            <Categories>0</Categories>
+        </Row>
+        <Row ID="81670ef0-9f69-497c-aab6f53262b072b8">
+            <Text>Bo&#xBF;e Narodzenie&#x0D;&#x0A;</Text>
+            <Date>07-04-2004 14:33.25</Date>
+            <ShowFrom>25-12-2006 00:00.00</ShowFrom>
+            <ShowTo>25-12-2006 00:00.00</ShowTo>
+            <Modified></Modified>
+            <Categories>0</Categories>
+        </Row>
+        <Row ID="f8672132-3596-46bf-ad234236aca3b113c3">
+            <Text>Dzie&#xF1; Niepodleg&#xB3;o&#x9C;ci&#x0D;&#x0A;</Text>
+            <Date>07-04-2004 14:36.32</Date>
+            <ShowFrom>11-11-2005 00:00.00</ShowFrom>
+            <ShowTo>11-11-2005 00:00.00</ShowTo>
+            <Modified></Modified>
+            <Categories>0</Categories>
+        </Row>
+        <Row ID="f8672132-3596-46bf-adcbc6aca3b113c3">
+            <Text>Dzie&#xF1; Niepodleg&#xB3;o&#x9C;ci&#x0D;&#x0A;</Text>
+            <Date>07-04-2004 14:36.32</Date>
+            <ShowFrom>11-11-2006 00:00.00</ShowFrom>
+            <ShowTo>11-11-2006 00:00.00</ShowTo>
+            <Modified></Modified>
+            <Categories>0</Categories>
+        </Row>
+    </Data>
+</Notes>

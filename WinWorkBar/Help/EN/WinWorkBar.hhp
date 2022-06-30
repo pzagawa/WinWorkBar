@@ -1,0 +1,20 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=WinWorkBar.chm
+Contents file=Table of Contents.hhc
+Default topic=about.htm
+Display compile progress=No
+Language=0x809 Angielski (Wielka Brytania)
+Title=WinWorkBar
+
+
+[FILES]
+about.htm
+
+[ALIAS]
+HIDD_WINPSF_DIALOG = about.htm
+HIDD_PASSWORDDLG = about.htm
+HIDD_ADDTOARCHIVE_DLG = about.htm
+
+[INFOTYPES]
+

@@ -1,0 +1,193 @@
+0000:Translation author: Erick Segura
+0001:Date: 25-05-2005
+0002:email: esegura@itelgua.com
+0003:--------------------------------
+0004:Menu
+0005:No Ocultar
+0006:Ocultar
+0007:Configuración
+0008:Acerca de...
+0009:Salir
+0010:No Ocultar
+0011:Fecha y Hora
+0012:Calendario
+0013:Nueva Nota
+0014:Nueva Tarea
+0015:Buscar
+0016:Tareas
+0017:Notas
+0018:Archivo
+0019:Eliminar
+0020:Ver
+0021:Hoy
+0022:Mañana
+0023:Ayer
+0024:En la semana
+0025:Categorias
+0026:Agregar
+0027:Guardar
+0028:Cancelar
+0029:Nombre
+0030:No se puede cargar el archivo
+0031:Actualizar
+0032:NO se puede grabar el archivo
+0033:Trabajo
+0034:Personal
+0035:Vacaciones
+0036:Cumpleaños
+0037:Ideas
+0038:Dias de Fiesta
+0039:Proyectos
+0040:Teléfonos
+0041:Dinero
+0042:Pagos
+0043:Compras
+0044:Reuniones
+0045:Citas
+0046:Predeterminado
+0047:Seleccionar categorias
+0048:Limpiar
+0049:Aceptar
+0050:Seleccionado
+0051:Todo
+0052:Registrar
+0053:Este programa está registrado para
+0054:Este programa NO está registrado
+0055:Dias para probar el programa
+0056:Período de prueba (<days> dias) han pasado
+0057:Para registrar este programa, clic en el botón 'Registrar'
+0058:(<version> versión)
+0059:Descargar nueva versión
+0060:Abrir página de registro del programa
+0061:Ingresar el nombre y el código de registro recibido
+0062:Usuario
+0063:Código de Registro
+0064:Hecho
+0065:Cerrar
+0066:Registrar programa
+0067:Ayuda
+0068:Página Principal
+0069:Mostrar/Ocultar
+0070:Editar
+0071:Nuevo
+0072:Editar
+0073:Eliminar
+0074:Buscar
+0075:Ver
+0076:Contenidos
+0077:Agregado
+0078:Cambiado
+0079:Editar nota
+0080:Editar tarea
+0081:¿ Quiere guardar el texto cambiado ?
+0082:Ingresar contenido
+0083:¿ Quiere eliminar las notas seleccionadas ?
+0084:Siempre al frente
+0085:Insertar enlace www
+0086:Insertar enlace email
+0087:Insertar enlace de archivo
+0088:Insertar fecha
+0089:Insertar fecha larga
+0090:Insertar hora
+0091:Insertar fecha y hora
+0092:Mostrar de
+0093:para
+0094:Para
+0095:Todos
+0096:todos
+0097:Por categorias
+0098:Por progreso
+0099:Por prioridad
+0100:Por visibilidad de fecha
+0101:Por fecha de adición
+0102:Por cambio de fecha
+0103:no hecho
+0104:parcialmente hecho
+0105:finalizado
+0106:importante
+0107:predeterminado
+0108:no importante
+0109:últimos 30 dias
+0110:últimos 7 dias
+0111:ayer
+0112:hoy
+0113:Actualizar...
+0114:Todos
+0115:Seleccionado
+0116:¿ Quiere configurar a valores predeterminados ?
+0117:Fecha
+0118:Prioridad
+0119:Progreso
+0120:Repetir
+0121:¿ Quiere eliminar la nota ?
+0122:¿ Quiere eliminar la tarea ?
+0123:Tipo
+0124:Dia de la semana
+0125:Apagado
+0126:cada dia
+0127:cada mes
+0128:cada año
+0129:Dias de la semana
+0130:¿ Quiere eliminar las tareas seleccionadas ?
+0131:Finalizar
+0132:Mostrar
+0133:tarea en la
+0134:Con palabras
+0135:Sin palabras
+0136:¡Buscar!
+0137:tarea
+0138:nota
+0139:Ingrese una o más palabras y presiones el botón '¡Buscar!'
+0140:No hay tareas/notas encontradas con esas palabras
+0141:Elementos encontrados: %d. Tareas: %d. Notas: %d
+0142:Buscando...
+0143:Mostrar en navegador
+0144:Guardar como HTML
+0145:Lista de notas
+0146:Lista de tareas
+0147:Nota
+0148:Tarea
+0149:Archivos Html
+0150:Languaje / Jêzyk
+0151:Ocultar ventana después de
+0152:segundos
+0153:Controlar programa con HotKeys
+0154:Ejecutar programa
+0155:Recordar
+0156:en el inicio del sistema
+0157:Mostrar
+0158:minutos anteriores
+0159:Sonido
+0160:por bocinas internas
+0161:Prueba
+0162:Apagar
+0163:Error de Sintáxis
+0164:Paréntesis no coinciden
+0165:Falta ')'
+0166:Paréntesis vacios
+0167:Error de Sintáxis: operador esperado
+0168:No hay suficiente memoria
+0169:Ha ocurrido un error inesperado
+0170:Error de Sintáxis en el parámetro 'Vars' dado para 'FunctionParser::Parse()'
+0171:Número ilegal de parámetros para la función
+0172:Error de Sintáxis: fin prematuro de la cadena
+0173:Error de Sintáxis: esperando '(' después de la función
+0174:Error en el caracter
+0175:Error de cálculo
+0176:Calculado
+0177:¡ Bienvenido al programa WinWorkBar !
+0178:Importar datos
+0179:Exportar datos
+0180:Archivos Xml
+0181:Seleccionar datos para la operación
+0182:Abrir
+0183:El archivo no es un documento del programa WinWorkBar
+0184:No se puede cargar el archivo plantilla html
+0185:Acuario,Piscis,Aries,Tauro,Géminis,Cáncer,Leo,Virgo,Libra,Escorpión,Sagitario,Capricornio
+0186:Estilo del Reloj
+0187:LCD y signos zodiacales
+0188:Reloj de Texto
+0189:Mostrar ventana al hacer clic
+0190:Más tarde
+0191:Poner tarea en espera a los
+0192:minutos

@@ -1,0 +1,193 @@
+0000:Translation author: Piotr Zagawa
+0001:Date: 05-06-2003
+0002:email: vetch@vetch.magot.pl
+0003:--------------------------------
+0004:Menu
+0005:Not hide
+0006:Hide
+0007:Settings
+0008:About
+0009:Exit
+0010:Don't hide
+0011:Date and time
+0012:Calendar
+0013:New note
+0014:New task
+0015:Search
+0016:Tasks
+0017:Notes
+0018:File
+0019:Delete
+0020:View
+0021:Today
+0022:Tomorrow
+0023:Yesterday
+0024:For week
+0025:Categories
+0026:Add
+0027:Save
+0028:Cancel
+0029:Name
+0030:Cannot load data file
+0031:Update
+0032:Cannot save data file
+0033:Work
+0034:Personal
+0035:Days off
+0036:Birthdays
+0037:Ideas
+0038:Holidays
+0039:Projects
+0040:Phones
+0041:Money
+0042:Payments
+0043:Shopping
+0044:Meetings
+0045:Citations
+0046:Default
+0047:Select categories
+0048:Clear
+0049:OK
+0050:Selected
+0051:All
+0052:Register
+0053:This program copy is registered for
+0054:This program copy is NOT registered
+0055:Amount of program testing days
+0056:Program testing period (<days> days) passed
+0057:To register this program, click 'Register' button
+0058:(<version> version)
+0059:Download new version
+0060:Open program registration page
+0061:Enter received user name and registration code
+0062:User
+0063:Registration code
+0064:Done
+0065:Close
+0066:Register program
+0067:Help
+0068:Home page
+0069:Show/Hide
+0070:Edit
+0071:New
+0072:Edit
+0073:Delete
+0074:Search
+0075:View
+0076:Contents
+0077:Added
+0078:Changed
+0079:Note edit
+0080:Task edit
+0081:Do you want to save changed text ?
+0082:Enter content
+0083:Do you want delete selected notes ?
+0084:Always on top
+0085:Insert www link
+0086:Insert email link
+0087:Insert file link
+0088:Insert date
+0089:Insert long date
+0090:Insert time
+0091:Insert date and time
+0092:Show from
+0093:to
+0094:To
+0095:All
+0096:all
+0097:By categories
+0098:By progress
+0099:By priority
+0100:By visibility date
+0101:By adding date
+0102:By change date
+0103:not done
+0104:partially done
+0105:finished
+0106:important
+0107:default
+0108:not important
+0109:last 30 days
+0110:last 7 days
+0111:yesterday
+0112:today
+0113:Refreshing...
+0114:All
+0115:Selected
+0116:Do you want set default values ?
+0117:Date
+0118:Priority
+0119:Progress
+0120:Repeats
+0121:Do you want delete note ?
+0122:Do you want delete task ?
+0123:Type
+0124:Week days
+0125:off
+0126:every day
+0127:every month
+0128:every year
+0129:week days
+0130:Do you want delete selected tasks ?
+0131:Finish
+0132:Show
+0133:task at
+0134:With words
+0135:Without words
+0136:Search !
+0137:task
+0138:note
+0139:Enter one or few words and press 'Search !' button
+0140:No tasks/notes found by given words
+0141:Items finded: %d. Tasks: %d. Notes: %d
+0142:Searching...
+0143:Show in browser
+0144:Save as HTML
+0145:Notes list
+0146:Tasks lists
+0147:Note
+0148:Task
+0149:Html files
+0150:Language / Jêzyk
+0151:Hide window after
+0152:seconds
+0153:Control program with HotKeys
+0154:Execute program
+0155:Reminder
+0156:at system start
+0157:Show
+0158:minutes earlier
+0159:Sound
+0160:by internal speaker
+0161:Test
+0162:Off
+0163:Syntax error
+0164:Mismatched parenthesis
+0165:Missing ')'
+0166:Empty parentheses
+0167:Syntax error: operator expected
+0168:Not enough memory
+0169:An unexpected error ocurred
+0170:Syntax error in parameter 'Vars' given to 'FunctionParser::Parse()'
+0171:Illegal number of parameters to function
+0172:Syntax error: premature end of string
+0173:Syntax error: expecting '(' after function
+0174:Error at char
+0175:Calculation error
+0176:Calculate
+0177:Welcome in WinWorkBar program !
+0178:Import data
+0179:Export data
+0180:Xml files
+0181:Select data for operation
+0182:Open
+0183:File is not a WinWorkBar program document
+0184:Cannot load html template file
+0185:Aquarius,Pisces,Aries,Taurus,Gemini,Cancer,Leo,Virgo,Libra,Scorpio,Sagittarius,Capricorn
+0186:Clock style
+0187:LCD and zodiac signs
+0188:Text clock
+0189:Show window on click
+0190:Later
+0191:Put away task for
+0192:minutes

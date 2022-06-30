@@ -1,0 +1,193 @@
+0000:Translation author: Molnár Róbert [MRoby Works]
+0001:Date: 11-07-2004
+0002:email: molnar.robert@freeemail.hu
+0003:--------------------------------
+0004:Menü
+0005:Mindig látható
+0006:Elrejtés
+0007:Beállítások...
+0008:Névjegy...
+0009:Kilépés
+0010:Rögzítés
+0011:Dátum és idõ
+0012:Naptár
+0013:Új jegyzet...
+0014:Új feladat...
+0015:Keresés...
+0016:Feladatok
+0017:Jegyzetek
+0018:Fájl
+0019:Törlés
+0020:Nézet
+0021:Ma
+0022:Holnap
+0023:Tegnap
+0024:Héten
+0025:Kategóriák...
+0026:Hozzáadás
+0027:Mentés
+0028:Mégse
+0029:Név
+0030:Nem tölthetõ be az adat fájl.
+0031:Frissítés
+0032:Az adat fájl nem menthetõ!
+0033:Munka
+0034:Személyes
+0035:Szabadnapok
+0036:Születésnapok
+0037:Tervek
+0038:Szabadságok
+0039:Projektek
+0040:Telefonok
+0041:Pénz
+0042:Fizetések
+0043:Vásárlás
+0044:Találkozók
+0045:Idézetek
+0046:Alapértelmezett
+0047:Kategóriák kiválasztása
+0048:Ürítés
+0049:OK
+0050:Kijelölt kategóriák
+0051:Összes
+0052:Regisztráció...
+0053:A program jogos felhasználója:
+0054:A program ezen verziója NEM REGISZTRÁLT!
+0055:A program tesztelésének ideje [nap]:
+0056:A program tesztelési idõszaka (<days> nap) befejezõdött!
+0057:A program regisztrálásához kattints a 'Regisztráció' gombra!
+0058:(<version> verzió):
+0059:Új verzió letöltése
+0060:Program regisztrációs információ oldal megnyitása
+0061:Helyes 'Felhasználónév' és 'Regisztrációs kulcs' beírása
+0062:Felhasználónév:
+0063:Regisztrációs kód:
+0064:Elkészült
+0065:Bezárás
+0066:Program regisztráció
+0067:Súgó
+0068:Honlap
+0069:Megjelenítés/Elrejtés
+0070:Szerkesztés
+0071:Új
+0072:Szerkesztés
+0073:Törlés
+0074:Keresés
+0075:Nézet
+0076:Tartalom
+0077:Hozzáadva
+0078:Módosítva
+0079:Jegyzet szerkesztés
+0080:Feladat szerkesztés
+0081:Valóban menteni szeretnéd a szöveg módosításait?
+0082:Tartalom beírása
+0083:Valóban törölni szeretnéd a kijelölt jegyzetet?
+0084:Mindig legfelül
+0085:Internet hivatkozás beszúrása
+0086:E-mail hivatkozás beszúrása
+0087:Fájl hivatkozás beszúrása
+0088:Dátum beszúrása
+0089:Teljes dátum beszúrása
+0090:Idõ beszúrása
+0091:Dátum és Idõ beszúrása
+0092:Megjelenés:
+0093:-
+0094:-
+0095:Összes
+0096:összes
+0097:Kategóriák szerint
+0098:Folyamat szerint
+0099:Prioritás szerint
+0100:Láthatóság dátuma szerint
+0101:Hozzáadás dátuma szerint
+0102:Módosítás dátuma szerint
+0103:kezdés...
+0104:részben befejezve
+0105:befejezve
+0106:jelentõs
+0107:alapértelmezett
+0108:nem jelentõs
+0109:elmúlt 30 nap
+0110:elmúlt 7 nap
+0111:tegnap
+0112:ma
+0113:Frissítés...
+0114:Összes
+0115:Kijelölve
+0116:Valóban az alapértelmezett értékeket szeretnéd használni?
+0117:Dátum:
+0118:Prioritás:
+0119:Folyamat:
+0120:Ismétlések
+0121:Valóban törölni szeretnéd ezt a jegyzetet?
+0122:Valóban törölni szeretnéd ezt a feladatot?
+0123:Lehetõségek
+0124:Hét napjai
+0125:letiltás
+0126:minden nap
+0127:minden hónapban
+0128:minden évben
+0129:a hét kijelölt napjain
+0130:Valóban törölni szeretnéd a kijelölt feladatokat?
+0131:Befejezés
+0132:Megjelenítés
+0133:feladat
+0134:Szavakkal
+0135:Szavak nélkül
+0136:Keresés
+0137:feladat
+0138:jegyzet
+0139:Írj be egy vagy több szót és kattints a 'Keresés' gombra!
+0140:Nem találhatók feladatok/jegyzetek a beírt szavak segítségével!
+0141:Talált elemek: %d. Feladatok: %d. Jegyzetek: %d
+0142:Keresés...
+0143:Megtekintés a böngészõben
+0144:Mentés HTML fájlként...
+0145:Jegyzetek lista
+0146:Feladatok lista
+0147:Jegyzet
+0148:Feladat
+0149:HTML fájlok
+0150:Nyelv
+0151:Az ablak elrejtése
+0152:mp után.
+0153:Program vezérlése Gyorsbillentyûkkel
+0154:Program futtatása
+0155:Emlékeztetõ
+0156:a rendszer indításakor.
+0157:Megjelenés
+0158:perccel korábban.
+0159:Hangjelzés:
+0160:a belsõ hangszóró használatával.
+0161:Teszt
+0162:Letiltás
+0163:Mondattani hiba
+0164:Nem megfelelõ (különbözõ) zárójelek.
+0165:Hiányzik egy ')' jel.
+0166:Üres zárójelek.
+0167:Mondattani hiba: hiányzó kezelõ.
+0168:Nincs elegendõ memória!
+0169:Egy váratlan hiba történt!
+0170:Mondattani hiba a paraméterben: 'Vars' -> 'FunctionParser::Parse()'
+0171:Érvénytelen számú paraméter a funkcióhoz!
+0172:Mondattani hiba: a sor idõ elõtti befejezése.
+0173:Mondattani hiba: hiányzó '(' jel a funkció elõtt.
+0174:Hiba történt a takarítás közben!
+0175:Számítási hiba
+0176:Számológép
+0177:Üdvözöllek a WinWorkBar programban!
+0178:Adat importálás
+0179:Adat exportálás
+0180:XML fájlok
+0181:Adat kijelölése a mûvelethez:
+0182:Megnyitás
+0183:Ez a fájl nem egy WinWorkBar dokumentum.
+0184:Nem tölthetõ be HTML sablon fájl!
+0185:Vízöntõ,Halak,Kos,Bika,Ikrek,Rák,Oroszlán,Szûz,Mérleg,Skorpió,Nyilas,Bak
+0186:Óra stílusa
+0187:LCD és csillagjegyek
+0188:Szöveges kijelzõ
+0189:Ablak megjelenik kattintáskor.
+0190:Késõbb
+0191:Feladat elhagyása
+0192:percig.

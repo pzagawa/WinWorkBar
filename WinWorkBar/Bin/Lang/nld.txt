@@ -1,0 +1,193 @@
+0000:Translation author: A.N. Oniempje
+0001:Date: 10-15-2004
+0002:email: -
+0003:--------------------------------
+0004:Menu
+0005:Niet verbergen
+0006:Verbergen
+0007:Instellingen
+0008:Info
+0009:Afsluiten
+0010:Niet verbergen
+0011:Datum en tijd
+0012:Kalender
+0013:Nieuwe aantekening
+0014:Nieuwe taak
+0015:Zoeken
+0016:Taken
+0017:Aantekeningen
+0018:Bestand
+0019:Verwijderen
+0020:Beeld
+0021:Vandaag
+0022:Morgen
+0023:Gisteren
+0024:Vorige week
+0025:Categorieën
+0026:Toevoegen
+0027:Opslaan
+0028:Annuleren
+0029:Naam
+0030:Kan gegevensbestand niet laden
+0031:Updaten
+0032:Kan gegevensbestand niet opslaan
+0033:Werk
+0034:Persoonlijk
+0035:Vrije dagen
+0036:Verjaardagen
+0037:Ideeën
+0038:Vakanties
+0039:Projecten
+0040:Telefoonnummers
+0041:Geld
+0042:Betalingen
+0043:Boodschappen
+0044:Afspraken
+0045:Citaten
+0046:Standaard
+0047:Categorieën selecteren
+0048:Wissen
+0049:OK
+0050:Geselecteerd
+0051:Alles
+0052:Registratie
+0053:Dit programma is geregistreerd op naam van
+0054:Dit programma is NIET geregistreerd
+0055:Aantal testdagen programma
+0056:Testperiode programma: (<days> dagen) verstreken
+0057:Klik op de knop 'Registratie' om dit programma te registreren
+0058:(<version> versie)
+0059:Nieuwe versie downloaden
+0060:Informatie over registreren programma
+0061:Voer hieronder uw gebruikersnaam en registratiecode in
+0062:Gebruiker
+0063:Registratiecode
+0064:Gereed
+0065:Sluiten
+0066:Meer informatie in het Help-bestand
+0067:Help
+0068:Homepagina
+0069:Weergeven/verbergen
+0070:Bewerken
+0071:Nieuw
+0072:Bewerken
+0073:Verwijderen
+0074:Zoeken
+0075:Beeld
+0076:Inhoud
+0077:Gemaakt
+0078:Gewijzigd
+0079:Aantekening bewerken
+0080:Taak bewerken
+0081:Wilt u de gewijzigde tekst opslaan?
+0082:Eerst inhoud invoegen
+0083:Wilt u de geselecteerde aantekeningen verwijderen?
+0084:Altijd op voorgrond
+0085:www-link invoegen
+0086:E-mail-link invoegen
+0087:Bestandslink invoegen
+0088:Datum invoegen
+0089:Volledige datum invoegen
+0090:Tijd invoegen
+0091:Datum en tijd invoegen
+0092:Tonen van
+0093:tot
+0094:Tot
+0095:Alles
+0096:alles
+0097:Op categorie
+0098:Op voortgang
+0099:Op prioriteit
+0100:Op zichtbare datum
+0101:Op gemaakte datum
+0102:Op gewijzigde datum
+0103:niet voltooid
+0104:gedeeltelijk voltooid
+0105:voltooid
+0106:belangrijk
+0107:standaard
+0108:niet belangrijk
+0109:laatste 30 dagen
+0110:laatste 7 dagen
+0111:gisteren
+0112:vandaag
+0113:Bezig met vernieuwen...
+0114:Totaal
+0115:Geselecteerd
+0116:Wilt u de standaardwaarden herstellen?
+0117:Datum
+0118:Prioriteit
+0119:Voortgang
+0120:Herhalingen
+0121:Wilt u de aantekening verwijderen?
+0122:Wilt u de taak verwijderen?
+0123:Type
+0124:Doordeweeks
+0125:uit
+0126:elke dag
+0127:elke maand
+0128:elk jaar
+0129:doordeweeks
+0130:Wilt u de geselecteerde taken verwijderen?
+0131:Voltooien
+0132:Weergeven
+0133:taken op
+0134:Met woorden
+0135:Zonder woorden
+0136:Zoeken!
+0137:taak
+0138:aantekening
+0139:Voeg een of meerdere woorden in en klik op de knop 'Zoeken!'
+0140:Er zijn geen taken/aantekeningen gevonden
+0141:Gevonden items: %d. Taken: %d. Aantekeningen: %d
+0142:Bezig met zoeken...
+0143:In browser weergeven
+0144:Opslaan als HTML
+0145:Aantekeningenlijst
+0146:Takenlijst
+0147:Aantekening
+0148:Taak
+0149:Html-bestanden
+0150:Taal
+0151:Venster verbergen na
+0152:seconden
+0153:Programmabeheer met sneltoetsen
+0154:Starten programma
+0155:Herinnering
+0156:bij opstarten systeem
+0157:Tonen
+0158:minuten eerder
+0159:Geluid
+0160:door interne speaker
+0161:Testen
+0162:Uit
+0163:Syntax-fout
+0164:Verkeerde combinatie parenthesis
+0165:')' ontbreekt
+0166:Lege parentheses
+0167:Syntax-fout: operator verwacht
+0168:Geen genoeg geheugen
+0169:Er is een onverwachte fout opgetreden
+0170:Syntax-fout in parameter 'Vars' gegeven aan 'FunctionParser::Parse()'
+0171:Ongeldig aantal parameters tot functie
+0172:Syntax-fout: voortijdig einde van reeks
+0173:Syntax-fout: verwacht '(' na functie
+0174:Fout bij teken
+0175:Berekeningsfout
+0176:Berekenen
+0177:Welkom in het WinWorkBar-programma!
+0178:Gegevens importeren
+0179:Gegevens exporteren
+0180:Xml-bestanden
+0181:Gegevens voor operatie selecteren
+0182:Openen
+0183:Bestand is geen WinWorkBar-document
+0184:Kan template html-bestand niet laden
+0185:Waterman,Vissen,Ram,Stier,Tweelingen,Kreeft,Leeuw,Maagd,Weegschaal,Schorpioen,Boogschutter,Steenbok
+0186:Weergave klok
+0187:LCD + dierenriemtekens
+0188:Tekstklok
+0189:Venster na klikken tonen
+0190:Later
+0191:Taak wegleggen voor
+0192:minuten

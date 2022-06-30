@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		Item:1 = about.htm
+		Item:2 = credits.htm
+		Item:3 = desc.htm
+		Item:4 = faq.htm
+		Item:5 = features.htm
+		Item:6 = hints.htm
+		Item:7 = history.htm
+		Item:8 = license.htm
+		Item:9 = quickstart.htm
+		Item:10 = register.htm
+		Item:11 = requirements.htm
+		Item:12 = shortcuts.htm
+		Item:13 = WinWorkBar.css
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
